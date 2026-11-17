@@ -1,0 +1,16 @@
+{
+  "servers": [
+    {
+      "name": "web-server-ec2",
+      "host": "YOUR_EC2_PUBLIC_IP",
+      "user": "ubuntu",
+      "key_path": "/home/ubuntu/.ssh/your-key.pem",
+      "ports": [22, 80, 443],
+      "health_url": "http://YOUR_EC2_PUBLIC_IP/"
+    }
+  ],
+  "aws": {
+    "region": "ap-south-1",
+    "s3_bucket": "your-s3-backup-bucket"
+  }
+}

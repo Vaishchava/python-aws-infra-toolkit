@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pem
+.env
+config/hosts.json
+logs/*.log

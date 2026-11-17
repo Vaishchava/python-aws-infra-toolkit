@@ -1,0 +1,13 @@
+{
+  "file": "/var/log/syslog",
+  "summary": {
+    "ERROR": 53
+  },
+  "recent_samples": [
+    "Nov 16 14:27:23 Vaishnav networkd-dispatcher[325]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a",
+    "Nov 16 14:27:23 Vaishnav networkd-dispatcher[325]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a",
+    "Nov 16 14:27:23 Vaishnav containerd[360]: time=\"2026-11-16T14:27:23.957086263+05:30\" level=info msg=\"skip loading plugin\" error=\"no scratch file generator: skip plugin\" id=io.containerd.snapshotter.v1.blockfile type=io.containerd.snapshotter.v1",
+    "Nov 16 14:27:23 Vaishnav containerd[360]: time=\"2026-11-16T14:27:23.958603983+05:30\" level=info msg=\"skip loading plugin\" error=\"path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin\" id=io.containerd.snapshotter.v1.btrfs type=io.containerd.snapshotter.v1",
+    "Nov 16 14:27:23 Vaishnav containerd[360]: time=\"2026-11-16T14:27:23.959491285+05:30\" level=info msg=\"skip loading plugin\" error=\"devmapper not configured: skip plugin\" id=io.containerd.snapshotter.v1.devmapper type=io.containerd.snapshotter.v1"
+  ]
+}
