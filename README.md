@@ -104,5 +104,3 @@ python cli.py --task s3-backup
 ```
 
 ---
-host configurations (`config/hosts.json`) are excluded via `.gitignore`.
-- AWS API calls rely on standard IAM credential chains (`~/.aws/credentials` or EC2 Instance Profiles) rather than hardcoded access keys.
