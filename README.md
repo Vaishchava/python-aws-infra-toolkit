@@ -4,11 +4,11 @@
 
 ## Features
 
-- **Remote SSH Server Health Checks (`paramiko`):** Connects to Ubuntu hosts via SSH key authentication to gather uptime/CPU load averages, memory usage, root disk utilization, and active Docker container statuses.
-- **TCP Port & API Endpoint Monitoring (`socket`, `requests`):** Verifies open/closed TCP ports (e.g., confirming port `80` is publicly reachable while internal application ports like `5000` remain firewalled) and measures HTTP response codes and latency.
-- **System & Nginx Log Analyzer (`re`):** Scans `/var/log` system and web server logs for recurring error patterns (`ERROR`, `CRITICAL`, `502 Bad Gateway`, `504 Gateway`, `Failed password`) and outputs structured JSON summaries.
-- **AWS EC2 Inventory & S3 Log Backups (`boto3`):** Queries live EC2 instance metadata and attached Security Groups, and archives diagnostic logs into compressed `.tar.gz` bundles uploaded directly to Amazon S3.
-- **Cron-Ready Automation:** Designed to run unattended via Linux `cron` jobs for scheduled health checks and daily S3 log backups.
+- **Remote SSH Server Health Checks (`paramiko`)
+- **TCP Port & API Endpoint Monitoring (`socket`, `requests`)
+- **System & Nginx Log Analyzer (`re`)
+- **AWS EC2 Inventory & S3 Log Backups (`boto3`)
+- **Cron-Ready Automation
 
 ---
 
